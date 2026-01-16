@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Frozen Joy | Ice Cream Parlour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">The Frozen Joy 🍨</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to The Frozen Joy</h1>
+            <p>Har scoop mein ek nayi khushi ka ehsas!</p>
+            <a href="#menu" class="cta-btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Hamare Best Flavors</h2>
+        <div class="menu-container">
+
+            <div class="ice-cream-card">
+                <img src="mango.jpg?q=80&w=200&h=200&auto=format&fit=crop" alt="Mango Ice Cream">
+                <h3>Mango Tango</h3>
+                <p>Asli Alphonso aam ka taaza swad.</p>
+                <span class="price">₹130</span>
+                <button class="order-btn" data-flavor="Mango Tango" data-price="130">Order Now</button>
+            </div>
+
+            <div class="ice-cream-card">
+                <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=200&h=200&auto=format&fit=crop" alt="Strawberry">
+                <h3>Strawberry Bliss</h3>
+                <p>Fresh strawberry chunks aur creamy texture.</p>
+                <span class="price">₹140</span>
+                <button class="order-btn" data-flavor="Strawberry Bliss" data-price="140">Order Now</button>
+            </div>
+
+            <div class="ice-cream-card">
+                <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=200&h=200&auto=format&fit=crop" alt="Vanilla">
+                <h3>Classic Vanilla</h3>
+                <p>Pure Madagascar beans se bani creamy vanilla.</p>
+                <span class="price">₹120</span>
+                <button class="order-btn" data-flavor="Classic Vanilla" data-price="120">Order Now</button>
+            </div>
+
+            <div class="ice-cream-card">
+                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=200&h=200&auto=format&fit=crop" alt="Chocolate">
+                <h3>Dark Chocolate</h3>
+                <p>Rich Belgian chocolate ka asli swad.</p>
+                <span class="price">₹150</span>
+                <button class="order-btn" data-flavor="Dark Chocolate" data-price="150">Order Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="cart-logic.js"></script>
+<script src="offers.js"></script>
+</body>
+</html>

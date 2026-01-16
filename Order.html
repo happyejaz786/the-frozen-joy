@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | The Frozen Joy</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+    <div class="order-container">
+        <h2>Aapka Order Panel 🍨</h2>
+        <p class="subtitle">Flavors select karein aur WhatsApp par confirm karein!</p>
+        
+        <div class="order-summary" id="cart-panel">
+            <div id="display-flavor">
+                <p style="text-align: center; color: #999;">Cart khali hai...</p>
+            </div>
+            
+            <div class="total-row">
+                <span>Total Bill:</span>
+                <span>₹<span id="display-price">0</span></span>
+            </div>
+        </div>
+
+        <a href="index.html" class="add-more-link">+ Aur Ice Cream Jodein</a>
+
+        <div class="divider"></div>
+
+        <div class="input-group">
+            <label for="cust-name">Aapka Pyara Naam:</label>
+            <input type="text" id="cust-name" placeholder="Jaise: Ejaz Khan" required>
+        </div>
+
+        <div class="input-group">
+            <label for="cust-phone">WhatsApp Number:</label>
+            <input type="tel" id="cust-phone" placeholder="98XXXXXXXX" required>
+        </div>
+
+        <button class="confirm-btn" onclick="sendToWhatsApp()">WhatsApp Par Order Bhejein ✅</button>
+
+        <a href="index.html" class="back-btn">← Home Par Wapas Jayein</a>
+    </div>
+
+    <script src="cart-logic.js"></script>
+</body>
+</html>
