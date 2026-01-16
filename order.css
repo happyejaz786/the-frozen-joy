@@ -172,9 +172,37 @@ h2 {
 }
 
 .back-btn {
-    display: block;
-    margin-top: 15px;
-    color: #999;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #e84393; /* Aapka primary pink color */
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2px solid #e84393;
+    border-radius: 50px; /* Capsule shape */
+    transition: all 0.3s ease;
+    background-color: transparent;
 }
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #e84393; /* Aapka primary pink color */
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2px solid #e84393;
+    border-radius: 50px; /* Capsule shape */
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+/* Hover Effect: Jab mouse button par jaye */
+.back-btn:hover {
+    background-color: #e84393;
+    color: #ffffff;
+    transform: translateX(-5px); /* Halki si left side movement */
+    box-shadow: 0 5px 15px rgba(232, 67, 147, 0.2);
+}
+
