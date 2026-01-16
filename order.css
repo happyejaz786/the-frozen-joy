@@ -184,19 +184,6 @@ h2 {
     transition: all 0.3s ease;
     background-color: transparent;
 }
-.back-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    color: #e84393; /* Aapka primary pink color */
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 600;
-    border: 2px solid #e84393;
-    border-radius: 50px; /* Capsule shape */
-    transition: all 0.3s ease;
-    background-color: transparent;
-}
 
 /* Hover Effect: Jab mouse button par jaye */
 .back-btn:hover {
